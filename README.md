@@ -3,15 +3,15 @@
 This project demonstrate a practise how to setup an Android Gradle project with nested projects, so you can tame the **Gradle files chaos**. This is quite useful if you want to demonstrate multiple use cases in form of different apps for a certain SDK.
 
 ### Structure
-Root project 'MultiProjects'
-|--- Project ':project1'
-|------ Module ':project1:app'
-|--- Project ':project2'
-|------ Module ':project2:app'
-|--- Project ':project3'
-|------ Module ':project3:app'
-|------ Module ':project3:modulelibrary'
-|--- Project ':projectlibrary'
+Root project 'MultiProjects'<br/> 
+--- Project ':project1'<br/> 
+------ Module ':project1:app'<br/>
+--- Project ':project2'<br/>
+------ Module ':project2:app'<br/>
+--- Project ':project3'<br/> 
+------ Module ':project3:app'<br/>
+------ Module ':project3:modulelibrary'<br/> 
+--- Project ':projectlibrary'<br/>
 
 The `settings.gradle` is defined in the root folder and nowhere else, the advantage of this is you can open all projects at once and execute every sub project indivudually.
 ```
