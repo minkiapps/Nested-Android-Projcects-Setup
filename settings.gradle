@@ -1,0 +1,6 @@
+include ':projectlibrary'
+include ':project1:app'
+include ':project2:app'
+include ':project3:app'
+include ':project3:modulelibrary'
+rootProject.name = "MultiProjects"
